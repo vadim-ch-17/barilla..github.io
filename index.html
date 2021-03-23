@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+	<title>Barilla</title>
+</head>
+<body>
+	<main>
+		<div id="first-block" class="container full-box first-block">
+			<div class="row">
+				<div class="col-12 head-line text-white text-center">
+					<h1>Vinci una fornitura</h1>
+					<h1>di pasta Barilla gratis per un anno!</h1>
+				</div>
+				<div class="col-12  mb-5">
+					<div class=" col-12 img-body d-flex justify-content-center px-5">
+						<img class="img-fluid py-3" src="assets/img-barilla.png" alt="Barilla">
+					</div>
+					<div class="col-12 px-5 mt-3">
+						<form class="form_half" name="form_reg_half" id="form_reg_half" autocomplete="off">
+							<h2>Dove possiamo inviare il possibile premio?</h2>
+							<div class="row">
+								<div class="col-6 form-check ">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label radius button-label button-label-up" for="defaultCheck1">
+										uomo
+									</label>
+								</div>
+								<div class="col-6 form-check ">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label radius button-label button-label-up" for="defaultCheck1">
+										donna
+									</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-6 cell mt-3">
+									<input class="id-form" type="text" required name="firstname" id="firstname" class="validate text" value=" " placeholder="Nome" />
+									<label  id="label_firstname" for="firstname">Nome</label>
+									<span class="status"><span class="form__error">completa correttamente il campo: nome</span></span>
+								</div>
+								<div class="col-6 cell mt-3">
+								<input class="id-form"  type="text" required name=lastname" id="lastname" class="validate text" value=" " placeholder="Cognome" />
+								<label  id="label_lastname" for="lastname">Cognome</label>
+								<span class="status"><span class="form__error">completa correttamente il campo: cognome</span></span>
+							</div>
+							</div>
+							<div class="row">
+								<div class="col-12 cell">
+									<p class="field_note mb-0">Data di nascita</p>
+									<div class="row">
+										<div class="cell col-4">
+											<input class="id-form" type="text" name="dayofbirth" id="dayofbirth"  maxlength="2" placeholder=" ">
+											<label class="label-poz" id="label_dayofbirth" for="dayofbirth">Giorno</label>
+										</div>
+										<div class="cell col-4">
+											<input class="id-form" type="text" name="monthofbirth" id="monthofbirth"  maxlength="2" placeholder=" ">
+											<label class="label-poz" id="label_monthofbirth" for="monthofbirth">Mese</label>
+										</div>
+										<div class="cell col-4">
+											<input class="id-form" type="text" name="yearofbirth" id="yearofbirth"  maxlength="4" placeholder=" ">
+											<label class="label-poz" id="label_yearofbirth" for="yearofbirth">Anno</label>
+										</div>
+									</div>
+									<span class="status_dayofbirth status_monthofbirth status_yearofbirth status">
+									<span class="status_message">I minori di 18 anni non possono participare!</span>
+								</span>
+								</div>
+								<div class="col-12">
+									<div id="submit_reg_half" class=" button-label large radius button-label-submit">
+										<span class="blink_text"> PARTECIPAZIONE 100% GRATUITA </span>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+		</div>
+		</div>
+		<div id="second-block" class="container full-box second-block">
+			<div class="row">
+				<div class="col-12">
+					<p>
+						Giorno Unico 2021 - Partecipazione gratuita. CONCORSO A PREMI con periodo di partecipazione dal 27 novembre 2020 al 14 novembre 2021. REALIZZATO IN CONFORMITÀ CON QUANTO PREVISTO DAL DPR 430/2001 - L'estrazione è garantita da Naturvel PTE LTD. Solo gli utenti che compilano interamente e correttamente il modulo partecipano all'estrazione. Premio: un buono Idea Shopping del valore di 1000 euro iva esclusa - montepremi complessivo del concorso è pari a 1000 Euro iva esclusa. In alternativa al buono IdeaShopping, l’utente vincitore può scegliere di ricevere un voucher di una compagnia aerea o ferroviaria selezionata dal Promotore.
+					</p>
+				</div>
+				<div class="col-12">
+					<div class="footer_links">
+						<a href="" class="advertiselink" title="Advertise" data-toggle="modal" data-target="#staticBackdrop1"><u>Advertise</u></a> | <a href="#" target="popped_iframe" data-toggle="modal" data-target="#staticBackdrop2"><u>Regolamento</u></a> | <a href="#" target="popped_iframe" data-toggle="modal" data-target="#staticBackdrop3"data-dcc="0"><u>Privacy</u></a> | <a href="#" target="popped_iframe" data-toggle="modal" data-target="#staticBackdrop4" data-dcc="0"><u>Contatto</u></a>
+					</div>
+					<sectiom class="modal-windows">
+						<!--				modal-1-->
+						<div class="modal fade" id="staticBackdrop1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-1">
+								<div class="modal-content modal-content-1">
+									<div class="modal-header modal-header-1">
+										<div>
+											<h5>Promote our Offers!</h5>
+											<p>
+												Register here at our private affiliate Network, Big Bang Ads.
+											</p>
+										</div>
+										<div class="close" data-dismiss="modal" aria-label="Close">
+											<span class="poz" aria-hidden="true">&times;</span>
+										</div>
+									</div>
+									<div class="modal-body">
+										<img src="assets/bba-logo.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--				modal-2-->
+						<div class="modal modal-2 fade pr-0" id="staticBackdrop2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-2  modal-dialog-scrollable modal-dialog-scrollable-2">
+								<div class="modal-content modal-content-2">
+									<div class="modal-header border-0">
+										<h2>REGOLAMENTO DEL CONCORSO A PREMI</h2>
+									</div>
+									<div class="modal-body modal-body-2">
+										"Giorno unico 2021"
+
+										<h4>1. SOGGETTO PROMOTORE</h4>
+										Naturvel PTE. LTD., con sede legale in Singapore, Via Raffles Place n.9,26-01, Republic Plaza, 048619, registrata presso il Registro delle Imprese di Singapore (ACRA) al numero 201431968D (di seguito, il "Soggetto Promotore").
+
+										<h4>2. RAPPRESENTANTE FISCALE IN ITALIA</h4>
+										Alfaplanner s.r.l, con sede legale in Grosseto, Via Veio n.22, C.F/Partita IVA/iscrizione nel Registro delle Imprese di Grosseto n. 01648510533, capitale sociale Euro 10.000,00 i.v., R.E.A n. 127909 (di seguito, il "Rappresentante Fiscale").
+
+										<h4>3. SOGGETTO DELEGATO (ex art. 5, co. 3 del D.P.R. 430/2001)</h4>
+										Alfaplanner S.r.l., www.alfaplanner.com con sede legale in Grosseto, Via Veio n.22, Codice Fiscale/Partita IVA/iscrizione nel Registro delle Imprese di Grosseto n. 01480420536, capitale sociale Euro 10.000,00 i.v., -R.E.A. n.127909 (di seguito, il "Soggetto Delegato").
+
+										<h4>4. DENOMINAZIONE DEL CONCORSO</h4>
+										“Giorno unico 2021” (di seguito, il "Concorso")
+
+										<h4>5. PERIODO DI PARTECIPAZIONE</h4>
+										La partecipazione al Concorso è consentita dal giorno 27 novembre 2020 al giorno 14 novembre 2021 (di seguito, il "Periodo di Partecipazione"). Estrazione entro il giorno 27 novembre 2021.
+
+										<h4>6. OGGETTO DELLA PROMOZIONE</h4>
+										La ditta promotrice, il suo marchio e i suoi servizi nel territorio dello Stato.
+
+										<h4>7. AMBITO TERRITORIALE</h4>
+										Il territorio della Repubblica Italiana e della Repubblica di San Marino.
+
+										<h4>8. DESTINATARI</h4>
+										Tutte le persone fisiche maggiorenni residenti sul territorio della Repubblica Italiana o della Repubblica di San Marino (di seguito I "Destinatari"). Sono esclusi i dipendenti ed i rispettivi coniugi e parenti del Soggetto Promotore e del Soggetto Delegato.
+
+										<h4>9. MODALITA' DI PARTECIPAZIONE E PREMI IN PALIO</h4>
+										Per partecipare all’estrazione finale gli utenti, durante il periodo di partecipazione, dovranno collegarsi ad almeno uno dei seguenti siti internet di proprietà del Soggetto Promotore:
+										<ul class="modal-2-ul">
+											<li><a href="">www.giornounico.com</a></li>
+											<li><a href="">www.ilsuperpremio.com</a></li>
+											<li><a href="">www.tuoregalo.com</a></li>
+											<li><a href="">www.pioggiadipremi.com</a></li>
+											<li><a href="">www.giornodigloria.com</a></li>
+											<li><a href="">www.oggiseitu.com</a></li>
+											<li><a href="">www.ritiroimmediato.com</a></li>
+											<li><a href="">www.unbelgiorno.com</a></li>
+											<li><a href="">www.fortunato-oggi.com</a></li>
+											<li><a href="">www.fortunatooggi.com</a></li>
+											<li><a href="">www.il-tuo-giorno.com</a></li>
+											<li><a href="">www.iltuogiorno.com</a></li>
+											<li><a href="">www.giorno-fortunato.com</a></li>
+											<li><a href="">www.meglio-per-te.com</a></li>
+											<li><a href="">www.tutto-per-te.com</a></li>
+											<li><a href="">www.tuttoperme.com</a></li>
+											<li><a href="">www.tutto-per-me.com</a></li>
+											<li><a href="">www.ora-tu.com</a></li>
+											<li><a href="">www.eccoti-qua.com</a></li>
+											<li><a href="">www.eccotiqua.com</a></li>
+											<li><a href="">www.latuapagina.com</a></li>
+											<li><a href="">www.la-tua-pagina.com</a></li>
+											<li><a href="">www.qui-e-ora.com</a></li>
+											<li><a href="">www.partecipa-ora.com</a></li>
+											<li><a href="">www.partecipaora.com</a></li>
+										</ul>
+										<p>
+											(di seguito “il Sito”), e compilare il modulo di iscrizione in tutti i suoi campi, indicando nome, cognome, indirizzo, numero di telefono ed email.
+
+											I Destinatari potranno facoltativamente rispondere a domande di tipo statistico. La scelta di rispondere alle domande non precluderà in alcun modo la partecipazione all’estrazione finale.
+
+											Una volta terminato l’inserimento di tutti i dati, l’utente riceverà, all’indirizzo di posta elettronica indicato in fase di partecipazione, una email per confermare la registrazione. Una volta confermata la registrazione e seguendo le istruzioni contenute nell’email ricevuta, l’utente avrà diritto a partecipare all’estrazione finale. Il mancato inserimento di uno dei dati obbligatori richiesti nel form di registrazione impedirà la partecipazione al concorso. I dati anagrafici incomprensibili, incompleti o palesemente non veritieri saranno considerati non validi: pertanto, il partecipante perderà il diritto alla partecipazione. E’ consentita una sola partecipazione per ogni indirizzo email. Ogni utente può partecipare mediante un solo indirizzo email.
+
+											Accedendo all’estrazione finale, la quale avverrà alla presenza di un funzionario della Camera di Commercio o di un Notaio tutore della Fede ubblica, il nominativo estratto potrà vincere un solo esemplare del premio di seguito descritto, a scelta tra:
+										</p>
+										<p>
+											<span>Opzione A)</span> n. 1 (uno) buono Idea Shopping del valore totale di Euro 1.000,00 (mille//00) iva inclusa convertibile in buoni spendibili in circa 40 esercizi commerciali. Le condizioni di utilizzo del buono “IdeaShopping” sono visibili al sito
+											<a href="#">https://blue.idea-shopping.it</a> e il catalogo completo degli esercizi commerciali presso i quali è possibile convertire il buono è consultabile all’indirizzo
+											<a href="#">https://blue.idea-shopping.it/welcome</a>
+										</p>
+										<p>
+											<span>Opzione B)</span> n. 1 (uno) buono sconto spendibile presso una compagnia aerea selezionata dal Promotore del valore totale di Euro 1.000,00 (mille//00) iva inclusa. Il buono sconto spendibile presso una compagnia aerea selezionata dal Promotore è soggetto alle condizioni della società emittente del buono. Non sono incluse le spese di trasferimento da e per l’aeroporto e qualsiasi altra spesa accessoria e/o eccedente il valore o la natura del buono sconto stesso.
+										</p>
+										<p>
+											<span>Opzione C</span>) n. 1 (uno) buono sconto spendibile presso una compagnia ferroviaria selezionata dal Promotore del valore totale di Euro 1.000,00 (mille//00) iva inclusa. Il buono sconto spendibile presso una società ferroviaria selezionata dal Promotore è soggetto alle condizioni della società emittente del buono. Non sono incluse le spese di trasferimento da e per la stazione ferroviaria e qualsiasi altra spesa accessoria e/o eccedente il valore o la natura del buono sconto stesso.
+										</p>
+										<p>
+											<span>Opzione D)</span> n. 100 (cento) buoni pasto TicketRestaurant del valore di euro 10,00 (dieci//00) iva inclusa ciascuno, per un valore complessivo di euro 1.000,00 (mille//00) iva inclusa. Le condizioni di utilizzo dei buoni sono visibili sul sito
+											<a href="#">https://www.edenred.it/buoni-pasto-welfare-benefit/ticket-restaurant/</a>
+										</p>
+										<p>
+											Alla presenza di un notaio o di un funzionario preposto alla tutela della fede Pubblica, verrà estratto dal database nel quale sono stati registrati i dati pervenuti attraverso il sito internet, mediante software, il nominativo di 1 (uno) vincitore. Saranno inoltre estratti 10 (dieci) nominativi di riserva, ai quali verrà aggiudicato il premio, nell’ordine di graduatoria, nel caso in cui il precedente estratto non sia in regola con le norme del Regolamento o non accetti il premio. Il vincitore sarà contattato per scegliere 1 (uno) solo esemplare a scelta tra il premio A (Opzione A), il premio B (Opzione B), oppure il premio C (Opzione C) oppure il premio D (Opzione D).
+										</p>
+										<p>
+											Il premio è personale e non cedibile. Il Soggetto Promotore si riserva la facoltà di confermare le vincite dopo aver confrontato i dati inviati per la convalida della vincita con quelli inseriti all’atto di partecipazione e di effettuare tutti i controlli che riterrà necessari per verificare il rispetto delle condizioni di partecipazione.
+										</p>
+										<h4>10. MONTEPREMI</h4>
+										Il montepremi complessivo del Concorso è pari ad Euro 1.000,00 (mille) iva inclusa.
+
+										<h4>11. CAUZIONE</h4>
+										La cauzione viene versata in favore del Ministero dello Sviluppo Economico, per un importo pari al 100% del valore complessivo del montepremi del Concorso, al netto di Iva, ai sensi dell’art. 7, comma 1. lettera a) D.P.R. n. 430/2001.
+
+										<h4>12. NOTIFICHE DELLE VINCITE E CONSEGNA DEI PREMI</h4>
+										<P><span>12.1</span> Entro 10 (dieci) giorni dall’estrazione l’utente verrà informato della vincita tramite email all’indirizzo rilasciato in fase di registrazione al Concorso.</P>
+
+										<p><span12.2></span12.2> All’utente estratto, per convalidare la vincita, verrà richiesto di confermare via email entro e non oltre 10 (dieci) giorni i propri dati personali (nome, cognome, indirizzo, telefono cellulare) e di inviare copia della carta di identità in corso di validità e codice fiscale.</p>
+
+										<p><span>12.3</span> Si precisa che la convalida della vincita potrà essere confermata solo dopo la ricezione dei documenti richiesti, che dovranno pervenire comunque entro e non oltre 10 (dieci) giorni dalla data di comunicazione della vincita. In caso di mancata risposta entro il suddetto termine, il premio si intenderà come non richiesto.</p>
+
+										<p><span>12.4</span> In caso di mancata spedizione dei documenti richiesti entro i termini previsti oppure di documenti che riporteranno dati incomprensibili, dati differenti dai dati digitati durante la partecipazione al concorso, incompleti o palesemente non veritieri, essi saranno considerati non validi e il vincitore perderà il diritto all'ottenimento del premio e, con le stesse modalità di comunicazione di vincita, si passerà quindi ad avvisare la prima riserva disponibile, che avrà anch’essa tempo 10 (dieci) giorni per spedire tutta la documentazione richiesta al fine di convalidare la vincita.</p>
+
+										<p><span>12.5</span> Il premio sarà consegnato entro 180 giorni (6 mesi) dalla data di assegnazione, come previsto dall’art. 1, comma 3, D.P.R. 430/2001, secondo le modalità che verranno indicate al momento della comunicazione della vincita.</p>
+
+										<p><span>12.6</span> Ai sensi dell’art. 9, comma 1, D.P.R. n. 430/2001, l’assegnazione dei premi sarà effettuata alla presenza di un notaio o del responsabile della tutela del consumatore e della fede pubblica competente per territorio o di un suo delegato. Ai sensi del medesimo articolo, se il congegno utilizzato per l’assegnazione dei premi richiede particolari conoscenze tecniche, il notaio o il pubblico ufficiale è affiancato da un esperto che rende apposita perizia.</p>
+
+										<p><span>12.7</span> In caso di premio non assegnato o non richiesto o rifiutato, il premio in questione sarà assegnato alla prima riserva. Qualora il premio risulti nuovamente non assegnato o non richiesto o rifiutato, esso verrà assegnato alla successiva riserva. In caso di esaurimento di tutte le riserve, i premi non richiesti o non assegnati, diversi da quelli rifiutati, saranno devoluti alla ONLUS di cui al successivo punto.</p>
+
+										<h4>13. ONLUS</h4>
+										<p>Ai sensi dell'art.10, comma 5, D.P.R. 430/2001, i premi non richiesti o non assegnati, diversi da quelli rifiutati, saranno devoluti a Officina Famiglia ONLUS, con sede in Grosseto, via lago di Como n.20, codice fiscale 92081020536.</p>
+
+										<h4>14. TERMINI E CONDIZIONI GENERALI</h4>
+										<p><span>14.1</span> La partecipazione al Concorso è completamente gratuita, fatti salvi i costi telefonici e di connessione alla rete Internet, che sono a carico del Partecipante secondo le tariffe di volta in volta applicate dal proprio operatore.</p>
+
+										<p><span>14.2</span> La partecipazione al Concorso implica l'accettazione da parte del Partecipante del presente regolamento, che è interamente soggetto alla legge della Repubblica Italiana.</p>
+
+										<p><span>14.3 </span>I premi non potranno essere convertiti in denaro in nessun caso. I Partecipanti non potranno richiedere, con o senza conguagli in denaro, la consegna di premi diversi e/o a condizioni diverse da quelle previste dal presente regolamento.</p>
+
+										<p><span>14.4</span> Il Soggetto Promotore si riserva il diritto di sostituire i premi con articoli di pari valore e qualità, nel caso in cui i premi previsti nel presente regolamento non siano più disponibili sul mercato per cause non imputabili al Soggetto Promotore.</p>
+
+										<p><span>14.5</span> L'utilizzo e la fruizione di premi potrebbero essere soggetti a termini e condizioni previsti dai terzi produttori e/o distributori e/o erogatori dei premi previsti dal presente regolamento.</p>
+
+										<p><span>14.6</span> Nella massima misura consentita dalla legge applicabile, il Soggetto Promotore non si assume alcuna responsabilità in relazione all'utilizzo e/o alla fruizione dei premi da parte dei Partecipanti vincitori.</p>
+
+										<p><span>14.7</span> I Partecipanti che, secondo il giudizio del Soggetto Promotore, risultino vincitori con mezzi e strumenti in grado di eludere l'aleatorietà, o comunque giudicati in maniera sospetta, fraudolenta, o in violazione del normale svolgimento dell’iniziativa, non potranno godere del premio vinto in tale modo. Il Soggetto Promotore si riserva il diritto di procedere, nei termini giudicati più opportuni e nel rispetto delle leggi vigenti, al fine di limitare ed inibire ogni iniziativa volta ad aggirare il sistema ideato, nonché si riserva di tutelare i propri diritti nelle sedi opportune.</p>
+
+										<p><span>14.8</span> Il Soggetto Promotore si riserva la facoltà di confermare le vincite dopo aver verificato la reale identità dei Partecipanti, ad esempio richiedendo copia del documento di identità dei Partecipanti, e di effettuare i controlli che riterrà necessari per verificare il rispetto delle previsioni del presente regolamento.</p>
+
+										<p><span>14.9</span> Nella massima misura consentita dalla legge, il Soggetto Promotore non si assume alcuna responsabilità in caso di mancato recapito dell’avviso di vincita o dei premi dovuto all’indicazione di indirizzi (elettronici o di residenza) o dati personali errati e/o non veritieri da parte dei vincitori e/o a disguidi postali.</p>
+
+										<p><span>14.10</span> Il Soggetto Promotore dichiara che il server di raccolta e gestione di tutti i dati relativi al Concorso si trova in Germania e che il database è sincronizzato in tempo reale con un database mirror in Italia presso Aruba s.p.a., Loc. Palazzetto 4, Bibbiena Stazione- Arezzo.</p>
+
+										<p><span14.11></span14.11> La raccolta dei dati dei partecipanti avverrà in ottemperanza al D. Lgs. n. 196/03, nonché al Regolamento UE 679/2016, come di volta in volta modificati. L’informativa privacy del Soggetto Promotore (titolare del trattamento) sarà resa a ciascun Partecipante in fase di registrazione sul Sito. Il Soggetto Delegato agirà in qualità di responsabile esterno del trattamento del Soggetto Promotore, e tratterà i dati personali dei Partecipanti al fine esclusivo di organizzare il Concorso e consentire ai Partecipanti di partecipare allo stesso.</p>
+
+										<p><span14.12></span14.12> Il presente regolamento è pubblicato sul Sito. Il Soggetto Promotore si riserva il diritto di modificare in tutto o in parte il presente regolamento, notificando le modifiche in questione al Ministero dello Sviluppo Economico, dandone adeguata comunicazione al pubblico, fermo restando che non siano apportate modifiche peggiorative o lesive di diritti già acquisiti da parte dei Partecipanti.</p>
+
+										<h4>15. RINUNCIA ALLA RIVALSA</h4>
+										Il Soggetto Promotore dichiara di rinunciare ad esercitare la facoltà di rivalsa della ritenuta alla fonte ex art. 30 D.P.R. 600/1973 a favore dei vincitori.
+
+										<h4>16. TRATTAMENTO DATI PERSONALI</h4>
+										<u>Titolare del trattamento</u>
+										<p>Titolare del trattamento è il Soggetto Promotore come sopra generalizzato.</p>
+
+										<u>Base giuridica e finalità del trattamento</u>
+										<p>Il Soggetto Promotore (di seguito, il “Titolare”) in qualità di Titolare del trattamento, informa che i dati personali volontariamente forniti dai partecipanti in relazione al presente Concorso sono trattati esclusivamente per le finalità di gestione strettamente funzionali alla partecipazione al Concorso stesso.</p>
+
+										<u>Conferimento dei dati</u>
+										<p>Il conferimento dei dati personali dei partecipanti in relazione al presente Concorso è facoltativo ma, essendo presupposto indispensabile per la partecipazione, il loro mancato, parziale o inesatto conferimento comporterà l’impossibilità di parteciparvi.</p>
+
+										<u>Modalità del trattamento e periodo di conservazione dei dati</u>
+										<p>I predetti dati personali sono trattati attraverso strumenti automatizzati (ad es. utilizzando procedure e supporti elettronici) e/o manualmente (ad es. su supporto cartaceo) anche con l’ausilio di strumenti informatici, per il tempo necessario a conseguire gli scopi per i quali i dati medesimi sono stati raccolti ed in modo da garantirne la sicurezza e la riservatezza in conformità alle disposizioni normative vigenti in materia di trattamento dei dati personali.</p>
+
+										<u>Destinatari</u>
+										<p>I suddetti dati personali potranno essere comunicati, esclusivamente per le finalità sopra illustrate, a terzi fornitori di servizi, che operano in qualità di autonomi Titolari del trattamento o di Responsabili del trattamento, e potranno essere trattati da soggetti preposti alla gestione della manifestazione a premi, in qualità di Persone Autorizzate al trattamento. L’elenco aggiornato dei Responsabili potrà sempre essere richiesto al Titolare del Trattamento, rivolgendosi all’indirizzo di seguito indicato.</p>
+
+										<u>Trasferimento verso un Paese Terzo</u>
+										<p>Il Titolare del Trattamento si serve, per le finalità sopra indicate, di server situati all’interno dell’Unione Europea; pertanto sulla base del Reg. UE 2016/679 è da ritenersi idoneo. I dati trattati dal Titolare non saranno mai diffusi.</p>
+
+										<u>Diritti dell’interessato</u>
+										<p>Ai sensi degli artt. 13 e ss. del Regolamento UE 2016/679 (“GDPR”), in relazione ai Dati Personali trattati l’interessato ha il diritto di ottenere in qualunque momento dal Titolare:</p>
+
+										<p>A) Diritto di accesso. L’interessato ha diritto ad ottenere informazioni sui dati trattati dal Titolare, su determinati aspetti del trattamento ed a ricevere una copia dei dati trattati;</p>
+
+										<p>B) Diritto di rettifica. L’interessato ha diritto di verificare la correttezza dei propri dati e richiedere l’integrazione dei dati incompleti, nonché l’aggiornamento e/o la correzione dei dati inesatti;</p>
+
+										<p>C) Diritto alla cancellazione. Quando ricorrono le condizioni previste dall’art. 17 del Regolamento UE 2016/679, l’interessato può richiedere la cancellazione dei propri dati da parte del Titolare;</p>
+
+										<p>D) Diritto alla limitazione del trattamento. Quando ricorre una delle ipotesi indicate dall’articolo 18, comma 1, del Regolamento UE n. 2016/679, l’interessato può richiedere la limitazione del trattamento dei propri dati. In tal caso il Titolare non tratterà i dati per alcun altro scopo se non la loro conservazione;</p>
+
+										<p>E) Diritto di opposizione. L’interessato ha diritto di opporsi in qualsiasi momento al trattamento dei propri dati quando ricorre una delle condizioni di cui all’art.21 del Regolamento UE n. 2016/679;</p>
+
+										<p>F) Diritto alla portabilità dei dati. L’interessato ha diritto di ricevere i propri dati in formato strutturato, di uso comune e leggibile da dispositivo automatico e, ove tecnicamente fattibile, di ottenerne il trasferimento senza ostacoli ad un altro titolare. Questa disposizione è applicabile quando i dati sono trattati con strumenti automatizzati ed il trattamento è basato sul consenso dell’interessato, su un contratto di cui l’interessato è parte o su misure contrattuali ad esso connesse;</p>
+
+										<p>G) Diritto di revoca. L’interessato può revocare in ogni momento il consenso al trattamento dei propri dati personali precedentemente espresso;</p>
+
+										<p>H) Diritto di proporre reclamo. Gli interessati che ritengono che il trattamento dei dati personali a loro riferito avvenga in violazione di quanto previsto dal Regolamento hanno il diritto di proporre reclamo al Garante, come previsto dall’art. 77 del Regolamento stesso, o di adire le opportune sedi giudiziarie (art. 79 del Regolamento).</p>
+
+										<p>Per l’esercizio dei diritti sopra elencati e per la revoca del consenso l’interessato potrà inviare una comunicazione scritta al seguente indirizzo email:
+											<a href="#">info@naturvel.com</a></p>
+
+										<h4>17. COMUNICAZIONI</h4>
+										<p>Per qualsiasi informazione relativa al Concorso o al presente regolamento e per eventuali richieste di cancellazione si prega di contattare il Promotore via email al seguente indirizzo
+											<a href="#">info@naturvel.com </a>.
+											Le ditte produttrici o fornitrici dei premi non sono sponsor del Concorso e non sono coinvolte in alcun modo con esso.</p>
+
+									</div>
+									<div >
+										<div id="submit_reg_half" class=" button-label large button-label-submit" data-dismiss="modal" aria-label="Close">
+											<span class="blink_text" aria-hidden="true"> CHIUDI FINESTRA</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--				modal-3-->
+						<div class="modal modal-2 fade pr-0" id="staticBackdrop3" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-2  modal-dialog-scrollable modal-dialog-scrollable-2">
+								<div class="modal-content modal-content-2">
+									<div class="modal-header border-0">
+										<h2>Informativa Privacy agli Utenti</h2>
+									</div>
+									<div class="modal-body modal-body-2">
+										<p><span>Naturvel Pte. Ltd</span>, con sede legale in 26 Eng Hoon Street, Singapore 169776, (di seguito, “<span>Titolare</span>”), proprietario del presente sito internet (di seguito, il “<span>Sito</span>”), in qualità di <span>titolare del trattamento dei dati personali</span> degli utenti che navigano il Sito e che partecipano alla manifestazione a premio accessibile dal Sito (di seguito, gli “<span>Utenti</span>”) fornisce qui di seguito l’informativa privacy ai sensi dell’art. 13 del Regolamento UE 2016/679 del 27 aprile 2016 (di seguito, “<span>Regolamento</span>” o “<span>Normativa Applicabile</span>”).
+
+										<p>
+											Questo Sito e la manifestazione a premio accessibile dal Sito sono riservati a soggetti che hanno compiuto il diciottesimo anno di età. Il Titolare non raccoglie quindi dati personali relativi ai soggetti minori di anni 18. Su richiesta degli Utenti, il Titolare cancellerà tempestivamente tutti i dati personali involontariamente raccolti e relativi a soggetti minori di anni 18.
+										</p>
+										<p>
+											Il Titolare tiene nella massima considerazione il diritto alla privacy ed alla protezione dei dati personali dei propri Utenti. Per ogni informazione in relazione alla presente informativa privacy, gli Utenti possono contattare il Titolare in qualsiasi momento, utilizzando le seguenti modalità:
+										</p>
+										<ul>
+											<li>
+												Inviando una raccomandata a/r alla sede legale del Titolare: Naturvel PTE. LTD, c/o Talk2 GmbH, Rheinstraße 22, 64283 Darmstadt, Deutschland
+											</li>
+											<li>
+												Inviando un messaggio di posta elettronica all’indirizzo <a href="#">info@naturvel.com</a>
+											</li>
+											<li>
+												Inviando un fax al n. 0049 61968022100
+											</li>
+											<ul>
+												Nel territorio dell’Unione Europea, il Titolare ha designato il seguente rappresentante ai sensi dell’art. 27 del Regolamento:
+												<li>Talk2 GmbH, VAT n. DE240157170 Rheinstraße 22, 64283 Darmstadt, Deutschland</li>
+											</ul>
+
+										</ul>
+
+										<p>È possibile contattare il Responsabile della protezione dei dati (RPD o DPO) scrivendo a
+											<a href="#">info@naturvel.com</a>.</p>
+
+										<h4>1. Finalità del trattamento</h4>
+										<p>
+											I dati personali degli Utenti saranno trattati lecitamente dal Titolare ai sensi dell’art. 6 del Regolamento per le seguenti finalità di trattamento:
+										</p>
+										<ol type="a">
+											<li>
+												<p><span><u>obblighi contrattuali:</u></span></p>
+												<span><u>per dare esecuzione al regolamento della manifestazione a premio</u></span>, che è accettata dall’Utente in fase di registrazione alla stessa; adempiere a specifiche richieste dell'Utente. I dati dell’Utente raccolti dal Titolare ai fini dell’eventuale partecipazione includono: il sesso, il nome, il cognome, la data di nascita, l’indirizzo postale, l'indirizzo email e il numero telefonico, nonché tutte le informazioni personali dell’Utente eventualmente e volontariamente pubblicate. Salvo che l’Utente dia al Titolare uno specifico e facoltativo consenso al trattamento dei propri dati per finalità di marketing ai sensi del successivo paragrafo 2 o per di comunicazione a terzi ai sensi del successivo paragrafo 3, i dati di cui sopra saranno utilizzati dal Titolare al fine esclusivo di accertare l’identità dell’Utente (anche tramite validazione dell’indirizzo di posta elettronica), evitando così possibili truffe o abusi e contattare l’Utente per sole ragioni di servizio (ad es. gestire l’eventuale partecipazione dell’Utente alla manifestazione a premio, notificare eventuali vincite e gestire la fase di attribuzione e consegna dei premi; contattare l’Utente per ottenere dati ed informazioni supplementari – come la copia del documento di identità - eventualmente richieste dal notaio e dal funzionario camerale responsabile dei concorsi a premi, al fine di accertarne l’identità ed evitare truffe ed abusi; effettuare eventuali comunicazioni urgenti via telefono nella fase di ritiro e fruizione dei premi). Fermo restando quanto previsto altrove in questa informativa privacy, in nessun caso il Titolare renderà accessibili agli altri Utenti e/o a terzi i dati personali degli Utenti.
+											</li>
+											<li>
+												<span><u>finalità amministrativo-contabili:</u></span> ovvero per svolgere attività di natura organizzativa, amministrativa, finanziaria e contabile, quali attività organizzative interne ed attività funzionali all'adempimento di obblighi contrattuali e precontrattuali;
+											</li>
+											<li>
+												<span><u>obblighi di legge</u></span>: ovvero per adempiere ad obblighi previsti dalla legge, da un regolamento o dalla normativa europea (es. normativa in materia fiscale; normativa in materia di manifestazioni a premio - D.P.R. 430/2001).
+											</li>
+										</ol>
+										<p>
+											Il conferimento dei dati personali per le finalità di trattamento sopra indicate è facoltativo ma necessario, poiché il mancato conferimento degli stessi comporterà l’impossibilità per l’Utente di usufruire dei servizi offerti dal Titolare sul Sito e partecipare alla manifestazione a premio.
+										</p>
+										<h4>2. Ulteriori finalità di trattamento: marketing (invio di materiale pubblicitario, vendita diretta e comunicazione commerciale)</h4>
+										<p>
+											Con il <span><u>consenso libero e facoltativo</u></span> dell’Utente, alcuni dati personali dell’Utente (ovvero il sesso, il nome, il cognome, la data di nascita, l’indirizzo postale, l'indirizzo email e il numero telefonico) potranno essere trattati dal Titolare anche per finalità di marketing (invio di materiale pubblicitario, vendita diretta e comunicazione commerciale), ovvero affinché il Titolare possa contattare l’Utente tramite posta, posta elettronica, telefono (fisso e/o mobile, con sistemi automatizzati di chiamata o di comunicazione di chiamata con e/o senza l'intervento di un operatore) e/o sms e/o (con <span>consenso libero e facoltativo</span> dell’Utente richiesto attraverso il suo browser) notifiche push e/o attraverso campagne di social marketing (a titolo esemplificativo, facebook) per proporre all’Utente l’acquisto di prodotti e/o servizi offerti dallo stesso Titolare e/o da imprese terze, presentare offerte, promozioni ed opportunità commerciali.
+										</p>
+										<p>
+											In caso di mancato consenso, la possibilità di iscriversi al concorso non sarà in alcun modo pregiudicata.						</p>
+										<p>
+											In caso di consenso, l’Utente potrà in qualsiasi momento revocare lo stesso, facendone richiesta al Titolare con le modalità indicate al successivo paragrafo 6.
+										</p>
+										<p>
+											L’Utente potrà inoltre opporsi facilmente ad ulteriori invii di comunicazioni promozionali via email anche cliccando sull'apposito link per la revoca del consenso, che è presente in ciascuna email promozionale. Effettuata la revoca del consenso, il Titolare invierà all’Utente un messaggio di posta elettronica per confermare l’avvenuta revoca del consenso. Qualora l'Utente intenda revocare il proprio consenso all'invio di comunicazioni promozionali via telefono, continuando tuttavia a ricevere comunicazioni promozionali via email, o viceversa, si prega di inviare una richiesta al Titolare con le modalità indicate al successivo paragrafo 6.
+										</p>
+										<p>
+											In particolare, l’Utente potrà revocare il proprio consenso all’invio di notifiche push tramite le impostazioni del proprio browser relative all’invio di notifiche.
+										</p>
+										<p>
+											L’Utente potrà inoltre opporsi facilmente ad ulteriori invii di comunicazioni promozionali via email anche cliccando sull'apposito link per la revoca del consenso, che è presente in ciascuna email promozionale. Effettuata la revoca del consenso, il Titolare invierà all’Utente un messaggio di posta elettronica per confermare l’avvenuta revoca del consenso. Qualora l'Utente intenda revocare il proprio consenso all'invio di comunicazioni promozionali via telefono, continuando tuttavia a ricevere comunicazioni promozionali via email, o viceversa, si prega di inviare una richiesta al Titolare con le modalità indicate al successivo paragrafo 6.
+										</p>
+										<p>
+											In particolare, l’Utente potrà revocare il proprio consenso all’invio di notifiche push tramite le impostazioni del proprio browser relative all’invio di notifiche.
+										</p>
+										<p>
+											Il Titolare informa che, a seguito dell’esercizio del diritto di opposizione all'invio di comunicazioni promozionali via email, è possibile che, per ragioni tecniche ed operative (es. formazione delle liste di contatto già completata poco prima della ricezione da parte del Titolare della richiesta di opposizione) l’Utente continui a ricevere alcuni ulteriori messaggi promozionali. Qualora l’Utente dovesse continuare a ricevere messaggi promozionali dopo che siano trascorse 24 ore dall’esercizio del diritto di opposizione, si prega di segnalare il problema al Titolare, utilizzando i contatti indicati al successivo paragrafo 6.
+										</p>
+										<h4>3. Ulteriori finalità di trattamento: comunicazione dei dati ai Partner del Titolare</h4>
+										<p>
+											Con il <span><u>consenso libero e facoltativo</u></span> dell’Utente, i dati personali dell’Utente (ovvero sesso, nome, cognome, indirizzo postale, indirizzo di posta elettronica, telefono), saranno comunicati dal Titolare alle seguenti <span>categorie</span> di aziende terze:
+										</p>
+										<ul>
+											<li>aziende di telecomunicazione, telefonia fissa e mobile (tra cui Vodafone Italia Spa)</li>
+											<li>aziende attive nel mondo dell’editoria, carta stampata, nuovi media e della televisione (pay-tv)</li>
+											<li>aziende attive nel settore del commercio elettronico di prodotti e servizi</li>
+											<li>società operanti nel settore delle utilities - gas, luce, acqua, fotovoltaico –e nella depurazione dell’acqua</li>
+											<li>società operanti nel settore turistico – tour operator, agenzie di viaggi e trasporti – e del tempo libero</li>
+											<li>società che si occupano di formazione professionale e/o scolastica</li>
+											<li>agenzie di pubblicità e marketing, centri media, ricerche di mercato e contact center</li>
+											<li>società operanti nella produzione e/o commercio di beni di largo consumo: alimentare e bevande, grocery non alimentare, cosmesi e salute, abbigliamento, beni semi-durevoli</li>
+											<li>ONG e ONLUS, organizzazioni no profit, fondazioni</li>
+											<li>società operanti nel settore scommesse e lotterie (con licenza aams)</li>
+											<li>società operanti nel settore automotive</li>
+											<li>società operanti nel settore finanziario, bancario, assicurativo</li>
+											<li>società sportive</li>
+											<li>agenzie per il lavoro e società di ricerca e selezione del personale</li>
+										</ul>
+										<p>L’elenco delle società Partner è consultabile <a href="#">qui</a>.</p>
+
+										<p>(collettivamente, i “<span>Partner del Titolar</span>e”).</p>
+
+										<p>
+											I Partner del Titolare, in qualità di autonomi titolari del trattamento, tratteranno i dati personali dell’Utente per proprie finalità di marketing (vendita diretta, invio di materiale pubblicitario e comunicazione commerciale), e potranno contattare l’Utente tramite posta, posta elettronica, telefono (fisso e/o mobile, con sistemi automatizzati di chiamata o di comunicazione di chiamata con e/o senza l'intervento di un operatore) e/o sms e/o attraverso campagne di social marketing (a titolo esemplificativo, facebook) per proporre all’Utente l’acquisto di prodotti e/o servizi offerti dalle stesse categorie di imprese terze e/o da altre imprese e presentare all’Utente offerte, promozioni ed opportunità commerciali. Una volta avvenuta la cessione, sarà onere del Partner del Titolare fornire agli Utenti ai sensi dell’art. 14 c.3 del Regolamento, tutte le informazioni previste dallo stesso art. 14 del Regolamento.
+										</p>
+										<p>
+											In caso di mancato consenso, la possibilità di iscriversi alla manifestazione a premio non sarà in alcun modo pregiudicata.
+										</p>
+										<p>
+											In caso di consenso, l’Utente potrà in qualsiasi momento revocare lo stesso, facendone richiesta al Titolare con le modalità indicate al successivo paragrafo 6.
+										</p>
+										<p>
+											Il Titolare informa che i dati personali dell’Utente saranno trattati dai Partner del Titolare in qualità di autonomi titolari del trattamento, sulla base della specifica informativa che sarà rilasciata dai Partner del Titolare agli Utenti ai sensi dell’art.14 c.3 del Regolamento. Eventuali richieste di non ricevere ulteriori comunicazioni commerciali da parte dei Partner del Titolare, ai quali i dati siano stati già comunicati dal Titolare, dovranno pertanto essere rivolte direttamente a questi.
+										</p>
+										<h4>4. Modalità di trattamento e tempi di conservazione dei dati</h4>
+										<p>
+											Il Titolare tratterà i dati personali degli Utenti mediante strumenti manuali ed informatici, con logiche strettamente correlate alle finalità stesse e, comunque, in modo da garantire la sicurezza e la riservatezza dei dati stessi.
+										</p>
+										<p>
+											Nei casi di cui al precedente paragrafo 1, i dati personali degli Utenti del Sito saranno conservati per i tempi strettamente necessari ad espletare le finalità primarie connesse alla partecipazione dell’Utente al concorso o comunque per il tempo necessario per la tutela in sede civilistica degli interessi sia degli Utenti che del Titolare, e quindi per un periodo di tempo ricompreso tra i 5 e, in caso di contenzioso, 10 anni.
+										</p>
+										<p>
+											Nei casi di cui ai precedenti paragrafi 2 e 3 i dati personali degli Utenti saranno conservati, da parte del Titolare, per i tempi strettamente necessari ad espletare le finalità illustrate negli stessi e, in ogni caso, per non più di ventiquattro (24) mesi dal momento della raccolta e/o ricezione di tali dati. Eccezionalmente, i dati personali destinati ai Partner del Titolare appartenenti alle categorie <span>i) aziende di telecomunicazione, telefonia fissa e mobile; ii) aziende attive nel mondo dell’editoria, carta stampata, nuovi media e della televisione (pay-tv); iii) società operanti nel settore delle utilities - gas, luce, acqua, fotovoltaico e nella depurazione dell’acqua</span>, di cui al paragrafo 3 che precede, saranno conservati dal Titolare, in virtù della specifica tipologia di prodotti e servizi dagli stessi offerti e tenuto conto delle valutazioni effettuate in tema di conservazione dei dati, per non più di quarantotto (48) mesi.
+										</p>
+										<p>
+											Il periodo di conservazione dei dati da parte dei Partner del Titolare potrà essere reperito dall’Utente all’interno dell’informativa da questi fornita ai sensi dell’art. 14 del Regolamento.
+										</p>
+										<h4>5. Ambito di comunicazione e diffusione dei dati</h4>
+										<p>
+											Potranno venire a conoscenza dei dati personali degli Utenti i dipendenti e/o collaboratori del Titolare incaricati di gestire il Sito. Tali soggetti, che sono stati istruiti in tal senso dal Titolare ai sensi dell’articolo 29 del Regolamento, tratteranno i dati dell’Utente esclusivamente per le finalità indicate nella presente informativa e nel rispetto delle previsioni della Normativa Applicabile.
+										</p>
+										<p>
+											Potranno inoltre venire a conoscenza dei dati personali degli Utenti i soggetti terzi che potranno trattare dati personali per conto del Titolare in qualità di“<span>Responsabili Esterni del Trattamento</span>”, quali, a titolo esemplificativo, fornitori di servizi informatici e logistici funzionali all’operatività del Sito, fornitori di servizi in outsourcing o cloud computing, professionisti e consulenti.
+										</p>
+										<p>
+											Gli Utenti hanno il diritto di ottenere una lista degli eventuali responsabili del trattamento nominati dal Titolare, facendone richiesta al Titolare con le modalità indicate al successivo paragrafo 6.
+										</p>
+										<p>
+											Inoltre, i dati personali degli Utenti potranno essere comunicati dal Titolare, nei limiti in cui ciò sia necessario per dare esecuzione ad obblighi contrattuali e/o per adempiere ad obblighi di legge, <span>a terzi autonomi titolari del trattamento</span>, quali notai e funzionari camerali incaricati dell’individuazione dei vincitori del concorso a premio organizzato sul Sito, il Ministero dello Sviluppo Economico, nonché i soggetti terzi indicati nel regolamento del concorso a premio, a cui i dati dovranno essere necessariamente comunicati per consentire all’Utente di usufruire dei premi eventualmente vinti (es. agenzie di viaggi, biglietterie, hotel, ecc.).
+										</p>
+										<h4>6. Diritti degli Interessati</h4>
+										<p>
+											Gli Utenti potranno esercitare i diritti garantiti loro dalla Normativa Applicabile, contattando il Titolare con le seguenti modalità:
+										</p>
+										<ul>
+											<li>Inviando una raccomandata a/r alla sede legale del Titolare: Naturvel PTE. LTD, c/o Talk2 GmbH, Rheinstraße 22, 64283 Darmstadt, Deutschland</li>
+											<li>Inviando un messaggio di posta elettronica <a href="#">info@naturvel.com</a></li>
+											<li>Inviando un fax al n. 0049 61968022100</li>
+										</ul>
+										<p>
+											Ai sensi della Normativa Applicabile, il Titolare informa che gli Utenti hanno il diritto di ottenere l'indicazione (i) dell'origine dei dati personali; (ii) delle finalità e modalità del trattamento; (iii) della logica applicata in caso di trattamento effettuato con l'ausilio di strumenti elettronici; (iv) degli estremi identificativi del titolare e dei responsabili; (v) dei soggetti o delle categorie di soggetti ai quali i dati personali possono essere comunicati o che possono venirne a conoscenza in qualità di responsabili o incaricati.
+										</p>
+										<p>Inoltre, gli Utenti hanno il diritto di ottenere:</p>
+										<ol type="a">
+											<li><span>l’accesso, l'aggiornamento</span>, la <span>rettificazione</span> ovvero, quando vi hanno interesse, <span>l'integrazione</span> dei dati</li>
+											<li>la <span>cancellazione</span>, la <span>trasformazione in forma anonima</span> o il <span>blocco</span> dei dati trattati in violazione di legge, compresi quelli di cui non è necessaria la conservazione in relazione agli scopi per i quali i dati sono stati raccolti o successivamente trattati;</li>
+											<li>l'attestazione che le operazioni di cui alle lettere a) e b) sono state portate a conoscenza, anche per quanto riguarda il loro contenuto, di coloro ai quali i dati sono stati comunicati o diffusi, eccettuato il caso in cui tale adempimento si rivela impossibile o comporta un impiego di mezzi manifestamente sproporzionato rispetto al diritto tutelato.</li>
+										</ol>
+										<p>Inoltre, gli Utenti hanno:</p>
+										<ol type="a">
+											<li>il diritto di <span>revocare il consenso</span> in qualsiasi momento, qualora il trattamento si basi sul loro consenso;</li>
+											<li>il diritto alla <span>portabilità dei dati</span> (diritto di ricevere tutti i dati personali che li riguardano in un formato strutturato, di uso comune e leggibile da dispositivo automatico), il diritto alla <span>limitazione del trattamento</span> dei dati personali e il <span>diritto alla cancellazione</span> (“diritto all’oblio”);</li>
+											<li>
+												il <span>diritto di opporsi:</span>
+												<ol type="i">
+													<li>in tutto o in parte, per motivi legittimi al trattamento dei dati personali che li riguardano, ancorché pertinenti allo scopo della raccolta;</li>
+													<li>in tutto o in parte, al trattamento di dati personali che li riguardano a fini di invio di materiale pubblicitario o di vendita diretta o per il compimento di ricerche di mercato o di comunicazione commerciale;</li>
+													<li>qualora i dati personali siano trattati per finalità di marketing diretto, in qualsiasi momento, al trattamento dei loro dati effettuato per tale finalità, compresa la profilazione nella misura in cui sia connessa a tale marketing diretto.</li>
+												</ol>
+											</li>
+											<li>d. qualora ritenessero che il trattamento che li riguarda violi il Regolamento, il diritto <span>di proporre reclamo a un’Autorità di controllo</span> (nello Stato membro in cui risiedono abitualmente, in quello in cui lavorano oppure in quello in cui si è verificata la presunta violazione). L’Autorità di controllo italiana è il <span>Garante per la protezione dei dati personali</span>, con sede in Piazza Venezia n. 11, 00187, Roma (<a
+													href="#">http://www.garanteprivacy.it/</a>).</li>
+										</ol>
+										<p>
+											Il Titolare non è responsabile per l’aggiornamento di tutti i link visualizzabili nella presente Informativa, pertanto ogni qualvolta un link non sia funzionante e/o aggiornato, gli Utenti riconoscono ed accettano che dovranno sempre far riferimento al documento e/o sezione dei siti internet richiamati da tale link.
+										</p>
+									</div>
+									<div >
+										<div id="submit_reg_half" class=" button-label large button-label-submit" data-dismiss="modal" aria-label="Close">
+											<span class="blink_text" aria-hidden="true"> CHIUDI FINESTRA</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--				modal-4-->
+						<div class="modal modal-2 fade pr-0" id="staticBackdrop4" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+							<div class="modal-dialog modal-dialog-2  modal-dialog-scrollable modal-dialog-scrollable-2">
+								<div class="modal-content modal-content-2">
+									<div class="modal-header border-0">
+										<h2>Contatto:</h2>
+									</div>
+									<div class="modal-body modal-body-2">
+										<p>Questo gioco a premi viene offerto dalla Naturvel PTE LTD</p>
+
+										<div class="modal-body-4">
+											<span>Naturvel PTE LTD</span>
+											<p >26 Eng Hoon Street</p>
+											<p >Singapore 169776</p>
+											<p >Singapore</p>
+										</div>
+										<p>
+											Per ulteriori informazioni riguardanti la società preghiamo di inviare una email all’indirizzo <span>info(at)naturvel.com</span>.
+										</p>
+										<div class="modal-body-4">
+											<span>Proprietà intellettuale</span>
+											<p>
+												I diritti di tutti i testi, elementi grafici, codici HTML e script sono di proprietà della Naturvel PTE LTD e ne è vietato qualunque uso senza esplicita autorizzazione da parte di Naturvel..
+											</p>
+										</div>
+
+										<p>
+											La Naturvel PTE LTD è registrata presso il Registro delle Imprese di Singapore (ACRA) con il numero 201431968D e viene rappresentata dall’amministratore Wai Siew Peng.
+										</p>
+									</div>
+									<div >
+										<div id="submit_reg_half" class=" button-label large button-label-submit" data-dismiss="modal" aria-label="Close">
+											<span class="blink_text" aria-hidden="true"> CHIUDI FINESTRA</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</sectiom>
+
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,210 @@
+body {
+    background-image: url(bg-barilla.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.full-box{
+    border-radius: .7em;
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.7);
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 872px;
+}
+.head-line{
+    background: red;
+    border: 1px solid red;
+    border-radius: .7em .7em 0 0;
+}
+.head-line h1{
+    font-family: 'BalooBhai-Regular', cursive;
+    color: #fff;
+    font-size: 1.7rem;
+    font-style: italic;
+}
+@font-face {
+    font-family: BalooBhai-Regular;
+    src: url(BalooBhai-Regular.ttf);}
+.img-body{
+    max-width: 100%;
+    height: auto;
+}
+.form_half h2{
+    font-size: 1.5em;
+    color: #363636;
+    text-shadow: 0 0 0.85em #ccc;
+    text-align: center;
+}
+.form-check-input{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.radius {
+    border-radius: .4rem;
+}
+.button-label {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid #1779ba;
+    padding: .85em 1em;
+    transition: background-color .25s ease-out, color .25s ease-out;
+    font-family: inherit;
+    font-size: .9rem;
+    -webkit-appearance: none;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    color: #1779ba;
+}
+.cell {
+    flex: 0 0 auto;
+    min-height: 0px;
+    min-width: 0px;
+    width: 100%;
+}
+.status_message{
+    line-height: 1em;
+    display: block;
+    padding: 0.25em 0.35em;}
+
+#label_firstname, #label_lastname{
+    font-weight: normal;
+    position: absolute;
+    left: 1.5rem;
+    top: 0.5rem;
+    transition: all 0.2s ease;
+}
+.id-form{
+    display: block;
+    width: 100%;
+    border: 0;
+    height: 43px;
+}
+input:focus{
+    outline: none;
+}
+.status{
+    color: red;
+    text-align: left;
+    font-size: 12px;
+    display: block;
+    margin-top: 3px;
+    display: none;
+}
+
+.field_note{
+   font-size: 0.75rem;
+    margin-top: 1rem;
+}
+.label-poz{
+    font-weight: normal;
+    position: absolute;
+    left: 1.5rem;
+    top: 0.5rem;
+    transition: all 0.2s ease;
+}
+.large{
+    margin-top: 2rem;
+    background: red;
+    text-align: center;
+    border: none;
+}
+.blink_text{
+    color: white;
+    font-size: 24px;
+    animation-name: blinker;
+    animation-duration: 1.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.button-label-submit:hover{
+    background: #001D38;
+}
+.button-label-up:hover{
+    color: #001D38;
+}
+.second-block p{
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 15px 10px;
+}
+.footer_links{
+    color: #1779ba;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.close{
+    border-radius: 100%;
+    border: 1px solid gray;
+    padding: 0;
+    margin: 16px 0 0 0;
+    box-shadow: 0px 0px 10px #5e5e5e;
+    height: 25px;
+    width: 25px;
+}
+.poz{
+position: relative;
+    top: -11px;
+    left: -6.5px;
+cursor: pointer;
+}
+
+.modal-dialog-1{
+    width: 276px;
+    position: relative;
+    top: 60%;
+}
+
+.modal-dialog-2{
+    max-width: 100%;
+    max-height: 100% ;
+    margin: 0 0;
+}
+
+.modal-content-1{
+padding: 10px;
+border-radius: 0;
+border: 2px solid red;
+
+}
+.modal-dialog-scrollable .modal-content-2{
+max-height: 100%;
+border-radius: 0;
+border: 0;
+text-align: left;
+
+}
+.modal-2-ul li{
+    list-style-type: none;
+}
+.modal-body-2 p{
+    font-size: 16px;
+    text-align: left;
+    color: black;
+}
+.modal-body-2 span{
+    font-weight: bold;
+}
+.modal-body-4 p{
+    margin: 0 10px;
+}
+@keyframes blinker {
+0% {
+    opacity:1.0;
+}
+50% {
+    opacity:0.0;
+}
+100% {
+    opacity:1.0;
+}
+}
